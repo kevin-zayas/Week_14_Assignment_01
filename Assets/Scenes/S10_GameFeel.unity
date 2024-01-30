@@ -184,7 +184,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 375226088063364274, guid: fc1776de97c416e4eb860a533d985337, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1037364208866069336, guid: fc1776de97c416e4eb860a533d985337, type: 3}
       propertyPath: m_Enabled
@@ -488,6 +488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_MoveRepeatDelay: 0.5
   m_MoveRepeatRate: 0.1
   m_XRTrackingOrigin: {fileID: 0}
@@ -504,6 +505,7 @@ MonoBehaviour:
   m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
 --- !u!1001 &5281312415084593943
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -811,11 +813,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6390467039450176950, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
       propertyPath: addKickerVelocity
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6390467039450176950, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
       propertyPath: addTargetVelocity
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6390467039450176950, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
       propertyPath: onKickAttempted.m_PersistentCalls.m_Calls.Array.size
@@ -975,19 +977,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7627786619979391879, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
       propertyPath: m_NormalizedViewPortRect.x
-      value: 0
+      value: 0.013276637
       objectReference: {fileID: 0}
     - target: {fileID: 7627786619979391879, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
       propertyPath: m_NormalizedViewPortRect.y
-      value: 0.081335604
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7627786619979391879, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 1
+      value: 0.9734467
       objectReference: {fileID: 0}
     - target: {fileID: 7627786619979391879, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
-      value: 0.8373288
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7627786620175798947, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
       propertyPath: maxAcceleration
@@ -1003,7 +1005,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7849287788267027987, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8148912452235401669, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
       propertyPath: m_Enabled
